@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="17.75" tests="3" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="C:\Users\nikhiln.MAVERICSYSTEMS\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="basedir" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NIKHIL~1.MAV\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6400678151835579132.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\nikhiln.MAVERICSYSTEMS\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/nikhiln.MAVERICSYSTEMS/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/nikhiln.MAVERICSYSTEMS/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Imaging\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Users\nikhiln.MAVERICSYSTEMS\AppData\Local\Microsoft\WindowsApps;;C:\Users\nikhiln.MAVERICSYSTEMS\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium\target\test-classes;C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium\target\classes;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.2\webdrivermanager-5.0.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\extentreport\0.1.47\extentreport-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.testng\0.1.47\common.testng-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.logger\0.1.47\common.logger-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.utils\0.1.47\common.utils-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.config\0.1.47\common.config-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.extension\0.1.47\common.extension-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\catools\common.security\0.1.47\common.security-0.1.47.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\github\lalyos\jfiglet\0.0.8\jfiglet-0.0.8.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\diogonunes\JCDP\2.0.3.1\JCDP-2.0.3.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\fusesource\jansi\jansi\1.15\jansi-1.15.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\codehaus\groovy\groovy-jsr223\2.5.7\groovy-jsr223-2.5.7.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\codehaus\groovy\groovy\2.5.7\groovy-2.5.7.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\javax\xml\bind\activation\1.0.2\activation-1.0.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.4.0-b180830.0438\jaxb-runtime-2.4.0-b180830.0438.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\glassfish\jaxb\txw2\2.4.0-b180830.0438\txw2-2.4.0-b180830.0438.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\codehaus\jettison\jettison\1.4.0\jettison-1.4.0.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-csv\1.6\commons-csv-1.6.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.10.2\jackson-dataformat-yaml-2.10.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.2\jackson-databind-2.10.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.2\jackson-annotations-2.10.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\bitbucket\cowwoc\diff-match-patch\1.2\diff-match-patch-1.2.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\uk\com\robust-it\cloning\1.9.12\cloning-1.9.12.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium\jar_resources\ATUTestRecorder_2.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium\jar_resources\ATUReporter_Selenium_testNG_5.1.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.18.1\surefire-testng-utils-2.18.1.jar;C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.18.1\surefire-grouper-2.18.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nikhiln.MAVERICSYSTEMS"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.gecko.driver" value="C:/Users/nikhiln.MAVERICSYSTEMS/selenium/selenium/driver/geckodriver.exe"/>
+    <property name="user.name" value="nikhiln"/>
+    <property name="java.class.path" value="C:\Users\nikhiln.MAVERICSYSTEMS\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Users\nikhiln.MAVERICSYSTEMS\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="webdriver.chrome.driver" value="C:/Users/nikhiln.MAVERICSYSTEMS/selenium/selenium/driver/chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\nikhiln.MAVERICSYSTEMS\maven_selenium_project\MavenSelenium\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\nikhiln.MAVERICSYSTEMS\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testParameterWithXML" classname="picnic.CrossBrowserScript" time="2.334">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAVBCP3179&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\NIKHIL~1.MAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1c11c44aa7869be44727f02977793ee7" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP3179', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\NIKHIL~1.MAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c11c44aa7869be44727f02977793ee7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at picnic.CrossBrowserScript.testParameterWithXML(CrossBrowserScript.java:54)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 18449
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 17, 2021 9:14:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testParameterWithXML" classname="picnic.CrossBrowserScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="picnic.CrossBrowserScript" time="15.416">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAVBCP3179&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP3179', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at picnic.CrossBrowserScript.setup(CrossBrowserScript.java:39)
+]]></failure>
+    <system-err><![CDATA[1631850296254	geckodriver	INFO	Listening on 127.0.0.1:40828
+1631850296338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\NIKHIL~1.MAV\\AppData\\Local\\Temp\\rust_mozprofilezl1Vhr"
+1631850298177	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\nikhiln.MAVERICSYSTEMS\\AppData\\Local\\Temp\\rust_mozprofilezl1Vhr\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+]]></system-err>
+  </testcase>
+</testsuite>
